@@ -9,6 +9,7 @@ export const Layout = ( {children} ) => {
         <div className={styles.layout}>
             <Head>
                 <title>Beautiful Places</title>
+                <meta name="robots" content="noindex"
                 <meta property="og:title" content="Beautiful Places" key="title" />
                 <meta name='type' property='og:type' content='website' />
                 <meta name='image' property='og:image' content='https://places.sandrosimon.com/images/preview.png' />
